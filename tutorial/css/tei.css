@@ -12,3 +12,6 @@ tei-list[type=simple] {
 tei-list[type=simple]>tei-item {
   display: list-item;
 }
+tei-hi[rend=italics] {
+  font-style: italic;
+}
