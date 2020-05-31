@@ -15,3 +15,7 @@ tei-list[type=simple]>tei-item {
 tei-hi[rend=italics] {
   font-style: italic;
 }
+tei-lb:before {
+  white-space: pre;
+  content: "\A";
+}
